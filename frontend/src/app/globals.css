@@ -16,14 +16,19 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.app {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  margin-top: 2rem;
+  height: 700px;
+  width: 450px;
+  background-color: lightgoldenrodyellow;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 @layer utilities {
